@@ -1,0 +1,19 @@
+Discount Calculator
+
+Problem Statement: You are given a purchase amount. Based on the amount, a discount is applied as follows:
+
+
+Discount Rules
+If amount < 1000 → 5% discount
+If amount ≥ 1000 and < 5000 → 10% discount
+If amount ≥ 5000 → 15% discount
+
+
+Task: Calculate the final payable amount after applying the discount.
+
+
+Input Format: A single integer: amount (total purchase value)
+
+
+Output Format: Print the final amount after discount,
+Rounded to 2 decimal places

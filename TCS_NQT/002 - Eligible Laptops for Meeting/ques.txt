@@ -1,0 +1,22 @@
+Eligible Laptops for Meeting
+
+Problem Statement: A company has laptops with different battery charging capacities. For an urgent meeting, only laptops with charging capacity greater than or equal to a required minimum value K can be used.
+
+
+Task: Find how many laptops are eligible for the meeting.
+
+
+Input (implied from problem)
+An integer n → number of laptops
+An array of n integers → charging capacities
+An integer K → minimum required capacity
+
+
+Output: Print the count of laptops
+
+Ex: 
+5
+3 6 8 2 10
+5
+
+Count = 3 (6,8,10)
