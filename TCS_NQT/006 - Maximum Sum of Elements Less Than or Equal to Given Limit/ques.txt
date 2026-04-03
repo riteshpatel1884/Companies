@@ -1,0 +1,16 @@
+Maximum Sum of Elements Less Than or Equal to Given Limit
+
+Problem Statement: You are given:
+An array of integers of size n
+An integer maxSum (maximum allowed sum)
+
+Find the maximum possible sum of elements from the array such that the sum is less than or equal to maxSum. You can choose any subset of elements. Return the maximum sum ≤ maxSum.
+
+
+Input Format:
+Integer n (size of array)
+Array arr[n]
+Integer maxSum
+
+
+Output Format: Maximum possible sum ≤ maxSum
