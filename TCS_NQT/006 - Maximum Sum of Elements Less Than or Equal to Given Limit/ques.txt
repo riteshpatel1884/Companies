@@ -14,3 +14,14 @@ Integer maxSum
 
 
 Output Format: Maximum possible sum ≤ maxSum
+
+
+Ex:
+Input:
+4
+2 3 5 7
+10
+
+Output: 10
+
+Explanation: Subset {3, 7} → sum = 10
