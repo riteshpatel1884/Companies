@@ -1,0 +1,17 @@
+Parking Fine Calculation
+
+Problem Statement: A parking system calculates fines based on the number of hours a vehicle is parked. Given an integer hours representing parking duration:
+
+
+Fine Rules:
+If parking time ≤ 2 hours → fine = 100
+If parking time > 2 and ≤ 5 hours → fine = 50
+If parking time > 5 hours → fine = 20
+
+
+Write a program to calculate and print the parking fine.
+
+
+Input Format: An integer hours
+
+Output Format: An integer representing the fine.
