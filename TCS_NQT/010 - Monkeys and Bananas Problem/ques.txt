@@ -1,0 +1,35 @@
+There are n monkeys sitting on the branches of a tree. Travelers offer bananas (m) and peanuts (p). Monkeys come down one at a time to eat.
+
+Each monkey can eat:
+k bananas 
+   OR
+j peanuts
+
+After eating, the monkey leaves and does not return until all monkeys finish eating.
+
+Special Condition:
+
+If the last monkey finds:
+fewer than k bananas 
+       OR
+fewer than j peanuts
+
+Then it can eat whatever is left:
+
+bananas < k
+peanuts < j
+
+Task: Find the number of monkeys left on the tree (i.e., those who didn’t get food).
+
+Input Parameters:
+n → total number of monkeys
+m → total number of bananas
+p → total number of peanuts
+k → bananas eaten by one monkey
+j → peanuts eaten by one monkey
+
+Output: Return the number of monkeys remaining on the tree
+
+Important Notes:
+- Each monkey eats either bananas OR peanuts, not both (except possibly last one with leftovers).
+- k and j are never zero.
