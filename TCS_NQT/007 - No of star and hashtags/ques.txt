@@ -1,0 +1,20 @@
+Given a string S consisting of '*' and '#'. The length of the string is variable. The task is to find the minimum number of '*' or '#' to make it a valid string.
+
+A string is considered valid if the number of '*' and '#' are equal.
+The '*' and '#' can be at any position in the string.
+
+The output will be a positive or negative integer based on the count of '*' and '#' in the input string.
+
+If * > # → positive integer (+ve no denotes we need to add that much hashtag  to make it a valid string)
+If # > * → negative integer (-ve no denotes we need to add that much star to make it a valid string)
+If # == * → 0
+
+
+Input: ###***
+Output: 0 → number of '*' and '#' are equal
+
+Input: ##***
+Output: 3-2 = 1 so 1 hashtag is needed
+
+Input: #**#*###
+Output: 3-5 = -2 so 2 star is needed
