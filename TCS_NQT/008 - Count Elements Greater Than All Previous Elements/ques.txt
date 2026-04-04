@@ -1,0 +1,29 @@
+Given an integer array Arr of size N, the task is to find the count of elements whose value is greater than all of its prior elements.
+
+Note: The 1st element of the array should always be included in the count.
+An element is counted only if it is strictly greater than all previous elements.
+Example:
+
+Input:
+Arr = {7, 4, 8, 2, 9}
+
+Explanation:
+
+7 → first element → counted
+4 → not greater than 7 → not counted
+8 → greater than 7 → counted
+2 → not greater than 8 → not counted
+9 → greater than 8 → counted
+
+Total count = 3
+
+Example 1 (Input format):
+5 → Value of N (size of array)
+7 → Arr[0]
+4 → Arr[1]
+8 → Arr[2]
+2 → Arr[3]
+9 → Arr[4]
+Output:
+
+3
