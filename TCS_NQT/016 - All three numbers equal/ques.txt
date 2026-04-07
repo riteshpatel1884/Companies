@@ -1,0 +1,25 @@
+You are given three integers p, q, and r.
+
+Your task is to perform operations to make all three numbers equal. In one operation, you can:
+- Add 1 to any two of the numbers.
+- Subtract 1 from the third number.
+
+You need to determine and print the minimum number of operations required to make p, q, and r equal.
+
+If it is not possible to make all three numbers equal, print -1.
+
+Input:
+3
+4 4 4
+2 2 4
+1 1 2
+Output: 
+0 => As all are already same so 0 operation
+1 => Add +1 to 2 and 2 and -1 to 4 so all become 3 so 1 operation
+1 => ye same nhi ban payega sp -1 operation
+
+So ek conclusion ye hai ki agar 2 no same hai and 3rd number uska +1 hai like 1 1 2 oe 2 3 2 then these types of number can't be same at any cost.
+
+Approach:
+1. Number ko sort kr do 2 4 2 => 2 2 4
+2. Jo chota hai usme +1 kr do and bad eme -1 kr do so 3 3 3 
