@@ -1,0 +1,10 @@
+Given a weighted graph with n vertices and m edges, find the shortest distance between two specified vertices. Print the shortest path and the total distance.
+
+Input Format
+First line: n (vertices), m (edges)
+Next m lines: u v w → edge from u to v with weight w
+Last line: src dest → source and destination
+
+Output Format
+Print the shortest path (sequence of vertices)
+Print the total distance
