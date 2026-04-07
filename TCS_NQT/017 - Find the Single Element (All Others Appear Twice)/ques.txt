@@ -1,0 +1,11 @@
+You are given an array contains one single element and all others comes
+2 times
+
+eg:
+N = 5
+Arr = [1, 1, 3, 2, 2]
+
+op = 3
+
+Ans = XOR approach. Same no ka XOR krne pe 0 aata hai so sabka XOR nikal lo.
+1 ^ 1 ^ 3 ^ 2 ^ 2 = 0 ^ 3 ^ 0 = 3 ^ 0 = 3 so 3 is single element
