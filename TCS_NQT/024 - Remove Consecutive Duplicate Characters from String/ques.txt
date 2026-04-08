@@ -1,0 +1,7 @@
+Write a program that takes a string input and Removes all consecutive duplicate characters. Maintains the original order and returns the modified string
+
+Input:
+223334566777
+
+Output:
+234567
