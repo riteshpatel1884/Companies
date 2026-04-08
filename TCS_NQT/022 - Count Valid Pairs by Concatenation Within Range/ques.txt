@@ -1,0 +1,21 @@
+You are given an integer N representing the length of an array NUM. Two integers X and Y representing a valid range
+
+Task: Form all possible pairs (NUM[i], NUM[j]) where i ≠ j. Concatenate the pair to form a number
+(Example: if NUM[i] = 5 and NUM[j] = 5 → concatenated number = 55)
+
+Check if the concatenated number lies within the range: X ≤ concatenated number ≤ Y. Count the number of such valid pairs
+
+Input:
+NUM = [1, 2, 3]
+X = 10
+Y = 30
+
+
+(1,2) → 12 ✅
+(1,3) → 13 ✅
+(2,1) → 21 ✅
+(2,3) → 23 ✅
+(3,1) → 31 ❌ (>30)
+(3,2) → 32 ❌ (>30)
+
+Valid pairs count = 4
