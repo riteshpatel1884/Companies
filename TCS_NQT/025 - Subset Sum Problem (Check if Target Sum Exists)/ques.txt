@@ -1,0 +1,18 @@
+You are given an array of integers and a target sum h
+
+Task: Determine whether any subset of the given array sums up to h.
+
+If such a subset exists → print "Yes"
+Otherwise → print "No"
+
+Input:
+Array = [3, 5, 7, 2]
+Target (h) = 10
+
+Explanation:
+Subset {3, 7} → sum = 10 
+
+Output:
+Yes
+
+Note: Subset/subsequence = 3 7 but not 7 3
