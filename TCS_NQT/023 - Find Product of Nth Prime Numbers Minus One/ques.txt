@@ -1,0 +1,25 @@
+You are given two integers n1 and n2.
+
+Task:
+- Find the n1-th prime number
+- Find the n2-th prime number
+- Compute their product
+- Subtract 1 from the result
+
+Output: Return the final value after subtraction.
+
+Input:
+n1 = 4
+n2 = 5
+
+Prime sequence:
+2, 3, 5, 7, 11, ...
+
+4th prime = 7
+5th prime = 11
+
+Calculation:
+7 × 11 = 77
+77 - 1 = 76
+
+Output: 76
