@@ -1,0 +1,33 @@
+Write a program that processes a given string to determine:
+
+1. The first non-repeating character (if present).
+2. The most repeated character in the string.
+3. If multiple characters have the same highest frequency, print:
+   - first the first non-repeating character,
+   - then the repeating character.
+4. If the input string is empty, print "Invalid Input".
+5. If all characters in the string are repeating, print:
+   "None" followed by the first repeating character.
+
+Pehle position pe Non repeating character then 2nd position pe most repeated character
+
+Ex 1: itika
+Output: t i as t,k,a are non repeating and t is first non repeating character so 1st pos pe t aa gya and 2nd pos me maximum repeating character.   
+
+Ex 2: swissmississippi
+p->2
+m->1
+i->6
+w->1
+s->7
+
+m and w are non repeated so print first one ie w as w comes earlier than m in string. For the 2nd positions is maximum repeated so s. Ans = ws
+
+Ex 3: aabbi
+ans = ia as i is non repeated and a =2 b =2 since a pehle aa rha hai so a at 2nd pos
+
+Ex 4: aabbcc
+ans = null a. As there is no one which is non repeating.
+
+
+
